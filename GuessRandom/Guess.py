@@ -1,11 +1,19 @@
 import random
 import math
 
-def ran(a):
+def ran():
     num=math.floor(random.random()*10)
-    if(num==a):
-        print("a== number ",num,a)
-        return True
-    else:
-        return False 
+    analyse(num)
+    
+def analyse(num):
+    choice =True
+    while (choice):
+        a=int(input("Enter Number "))
+        if(a<num): print("low")                
+        if(a>num): print("high")
+        if(a==num):
+             print(a," is the Correct Number")
+             choice = False
+        
+     
       

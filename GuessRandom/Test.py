@@ -1,5 +1,4 @@
 import Guess 
 if __name__ == "__main__": 
-    val =False
-    while(val!=True):
-     val=(Guess.ran(int(input("Enter a number"))))
+        print("Guess the values Between 0-10")
+        Guess.ran()
