@@ -36,11 +36,11 @@ def compare():
              or (finger=="paper" and comp=="stone")
              or (finger=="scissors" and comp=="paper") ):
                   
-                   return f"You Won with {finger} and Computer lost with {comp}"
+                   return f"->You Won with {finger} and Computer lost with {comp}"
                
      elif ((comp=="stone" and finger=="scissors") 
              or (comp=="paper" and finger=="stone")
              or (comp=="scissors" and finger=="paper") ):
-                   return f"Computer Won with {comp} and You lost with {finger}"                                    
+                   return f"->Computer Won with {comp} and You lost with {finger}"                                    
                
                
